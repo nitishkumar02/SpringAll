@@ -4,14 +4,22 @@ public class BadmintonCoach implements Coach {
 
 	@Override
 	public String getDailyWorkOut() {
-		
-		return null;
+		// TODO Auto-generated method stub
+		return "Play 5 shots";
 	}
 
 	@Override
 	public String getDailyFortune() {
 		
-		return null;
+		return "Play 5 shots";
 	}
-
+   public void doStartUpStuff()
+   {
+	   System.out.println("At The Start of Bean");
+   }
+   
+   public void doShutCleanUpStuff()
+   {
+	   System.out.println("After the Bean is destroyed");
+   }
 }
